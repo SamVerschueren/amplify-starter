@@ -1,0 +1,6 @@
+{
+  "name": "amplify-starter",
+  "devDependencies": {
+    "@aws-amplify/cli-internal": "^10.8.0"
+  }
+}
