@@ -1,4 +1,4 @@
 {
     "installDependencies": true,
-    "startCommand": "node setup-files/patch-amplify-plugins.mjs"
+    "startCommand": "amplify version && node setup-files/patch-amplify-plugins.mjs"
 }
