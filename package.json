@@ -1,6 +1,7 @@
 {
   "name": "amplify-starter",
   "devDependencies": {
-    "@aws-amplify/cli-internal": "^10.8.0"
+    "@aws-amplify/cli-internal": "^10.8.0",
+    "@types/node": "^18.14.2"
   }
 }
