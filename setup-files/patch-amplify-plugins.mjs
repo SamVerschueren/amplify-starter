@@ -1,7 +1,7 @@
 import * as fs from 'node:fs'
 import * as path from 'node:path'
 
-const filepath = path.resolve('/home/.amplify/plugins.json')
+const filepath = path.resolve(process.env.HOME, '.amplify/plugins.json')
 const read = fs.readFileSync(filepath, 'utf-8')
 const parsed = JSON.parse(read)
 
