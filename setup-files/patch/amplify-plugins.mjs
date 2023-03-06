@@ -26,7 +26,7 @@ if (parsed.pluginDirectories.includes(key)) {
  * order for Amplify to now also pick up the local node module plugins.
  */
 parsed.pluginDirectories = [...parsed.pluginDirectories, key];
-parsed.lastScanTime = "2000-01-01T00:00:00.000Z";
+parsed.lastScanTime = '2000-01-01T00:00:00.000Z';
 
 fs.writeFileSync(filepath, JSON.stringify(parsed, null, 2), 'utf-8');
 
