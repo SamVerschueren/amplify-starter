@@ -1,10 +1,6 @@
 /**
- * Patches an issue with an invalid `main` field in the `cloudform` package. This was fixed upstream,
- * but is hard to get it updated in the Amplify CLI itself because it depends on it in various different
- * places.
- *
- * @see https://github.com/aws-amplify/amplify-cli/issues/9939
- * @see https://github.com/bright/cloudform/issues/70
+ * When using the Amplify CLI, it will show warnings about AWS SDK v2 being in maintenance mode.
+ * This patch adds an additional line to the `amplify` binary which suppresses that warning.
  */
 import * as fs from 'node:fs';
 import * as path from 'node:path';
